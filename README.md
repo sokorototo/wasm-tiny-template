@@ -4,7 +4,7 @@ Simply edit `src/libs.rs`, then run `./build.sh`. The output file: `out/output.w
 
 It only requires that you give it an `exit` function: **`fn exit(error_type: u8) -> !`**.
 
-To run `./build.sh` without errors, ensure you have `wabt`  and `wasm-opt`installed
+To run `./build.sh` without errors, ensure you have `wabt`  and `wasm-opt` (from the [binaryen](https://github.com/WebAssembly/binaryen) project) installed
 
 ## Usage
 
